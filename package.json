@@ -1,0 +1,19 @@
+{
+  "name": "duck-wallet",
+  "version": "1.0.1",
+  "description": "a solana cli wallet",
+  "main": "index.js",
+  "bin": {
+    "duck-wallet": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.2",
+    "commander": "^12.1.0",
+    "fs": "^0.0.1-security"
+  }
+}
